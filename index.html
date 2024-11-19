@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Santet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Form Santet</h1>
+    <form id="santetForm">
+      <label for="pengirim">Masukkan Nama Pengirim:</label>
+      <input type="text" id="pengirim" name="pengirim" placeholder="Nama pengirim..." required>
+
+      <label for="penerima">Masukkan Nama Penerima:</label>
+      <input type="text" id="penerima" name="penerima" placeholder="Nama penerima..." required>
+
+      <label for="jenisSantet">Pilih Jenis Santet:</label>
+      <select id="jenisSantet" name="jenisSantet" required>
+        <option value="Santet Paku">Santet Paku</option>
+        <option value="Santet Teluh">Santet Teluh</option>
+        <option value="Santet Guna-Guna">Santet Guna-Guna</option>
+        <option value="Santet Pelet">Santet Pelet</option>
+        <option value="Santet Jengges">Santet Jengges</option>
+        <option value="Santet Bangka">Santet Bangka</option>
+        <option value="Santet Bulu Perindu">Santet Bulu Perindu</option>
+        <option value="Santet Susuk Gaib">Santet Susuk Gaib</option>
+        <option value="Santet Sawan">Santet Sawan</option>
+        <option value="Santet Kuburan">Santet Kuburan</option>
+        <option value="Santet Jelmaan">Santet Jelmaan</option>
+        <option value="Santet Boneka">Santet Boneka</option>
+        <option value="Santet Roh Jahat">Santet Roh Jahat</option>
+        <option value="Santet Udan">Santet Udan</option>
+        <option value="Santet Sumpah Serapah">Santet Sumpah Serapah</option>
+      </select>
+
+      <button type="button" id="submitSantet">Kirim Santet</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
